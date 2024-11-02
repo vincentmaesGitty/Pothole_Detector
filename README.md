@@ -4,7 +4,7 @@
 
 # Pothole_Detector
 Pothole detector based on yolov5 architecture. 
-![Pothole Image](\Readme_IMG\Ho-Chi-Minh-Potholes.jpg)
+![Pothole Image](Readme_IMG/Ho-Chi-Minh-Potholes.jpg)
 
 ## Table of Contents
 - [About the Project](#about-the-project)
