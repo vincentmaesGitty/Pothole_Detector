@@ -22,12 +22,12 @@ Since I will be going on a trip to Vietnam with a motorcycle, and considering th
 
 ## Hardware Used
 For the project, I used the most recent Raspberry Pi at the time (v5) with 8GB of RAM. For Vietnam, I also included an active cooler fan, a case, and a tripod to mount the camera somewhere on the motorcycle. 
-[Raspberry Pi 5 8GB RAM](https://www.raspberrystore.nl/PrestaShop/nl/raspberry-pi-5/508-raspberry-pi-5-8gb-5056561803326.html)
-[Camera Module 3](https://www.amazon.de/dp/B0BRY6MVXL?ref=ppx_yo2ov_dt_b_fed_asin_title)
-[Active Cooler Fan](https://www.amazon.de/dp/B0CLXZBR5P?ref=ppx_yo2ov_dt_b_fed_asin_title) 
-[Camera cable to Raspberry Pi 5](https://www.amazon.de/-/en/dp/B079H33VCM?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) 
-[Tripod for Camera](https://www.amazon.de/-/en/dp/B0D6NGGPQM?ref=ppx_yo2ov_dt_b_fed_asin_title) 
-[Raspberry Pi Case](https://www.amazon.de/-/en/dp/B0CRB3DT5M?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- [Raspberry Pi 5 8GB RAM](https://www.raspberrystore.nl/PrestaShop/nl/raspberry-pi-5/508-raspberry-pi-5-8gb-5056561803326.html)
+- [Camera Module 3](https://www.amazon.de/dp/B0BRY6MVXL?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- [Active Cooler Fan](https://www.amazon.de/dp/B0CLXZBR5P?ref=ppx_yo2ov_dt_b_fed_asin_title) 
+- [Camera cable to Raspberry Pi 5](https://www.amazon.de/-/en/dp/B079H33VCM?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) 
+- [Tripod for Camera](https://www.amazon.de/-/en/dp/B0D6NGGPQM?ref=ppx_yo2ov_dt_b_fed_asin_title) 
+- [Raspberry Pi Case](https://www.amazon.de/-/en/dp/B0CRB3DT5M?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 ## Getting Started
 ### Prerequisites
