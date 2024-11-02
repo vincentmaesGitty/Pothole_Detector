@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/yolo%20v5%-8A2BE2)
+![Static Badge](https://img.shields.io/badge/yolov5)
 
 # Pothole_Detector
 Pothole detector based on yolov5 architecture. 
