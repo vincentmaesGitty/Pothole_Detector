@@ -4,6 +4,7 @@
 
 # Pothole_Detector
 Pothole detector based on yolov5 architecture. 
+
 ![Pothole Image](Readme_IMG/Ho-Chi-Minh-Potholes.jpg)
 
 ## Table of Contents
@@ -31,13 +32,54 @@ For the project, I used the most recent Raspberry Pi at the time (v5) with 8GB o
 - [Raspberry Pi Case](https://www.amazon.de/-/en/dp/B0CRB3DT5M?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 ## Getting Started
+In this section, everything that is required to download and run the code is shown below. 
 ### Prerequisites
+1. Python installation: [Python Installation](https://www.python.org/downloads/)
+2. The dataset used for training the pothole detector can be found on [Kaggle](https://www.kaggle.com/datasets). 
+
+
 ### Installation
+#### 1. Create a virtual environment with Python
+1. Open Command Prompt.
+2. Navigate to your project directory:
+    ```bash
+    cd path\to\your\project
+    ```
+3. Create a virtual environment:
+    ```bash
+    python -m venv env
+    ```
+4. Activate the virtual environment:
+    ```bash
+    .\env\Scripts\activate
+    ```
+
+#### 2. Clone the GitHub Repository
+Clone the repository to your local machine:
+
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository.
+3. Clone the repo using `git`:
+    ```bash
+    git clone https://github.com/yourusername/your-repo.git
+    ```
+#### 3. Install the requirements
+With the virtual environment activated and the repository cloned, you can install the necessary dependencies:
+
+1. Navigate to the cloned repository directory:
+    ```bash
+    cd your-repo
+    ```
+2. Install the requirements using `pip`:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Dataset
 The dataset used for training the pothole detector can be found on [Kaggle](https://www.kaggle.com/datasets). 
 Download the dataset and place it in your working directory. 
 I chose the following distribution for the test, training and validation. The high training percentage (90%) is because this dataset was used to train an initial model before I added real data from my Raspberry Pi camera into the dataset. 
+
 
 ## Contact 
 Contact me on Linkedin using [My Linkedin](https://www.linkedin.com/in/vincent-maes/)
