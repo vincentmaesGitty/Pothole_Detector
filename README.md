@@ -11,10 +11,8 @@ Pothole detector based on yolov5 architecture.
 - [About the Project](#about-the-project)
 - [Hardware Used](#hardware-used)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
+  - [Creating Own Model on Windows](#CreatingOwnModelonWindows)
+  - [Running Inference on Raspberry PI ](#RunningInferenceonRaspberryPI)
 - [Contact](#contact)
 
 ## About the project
@@ -89,11 +87,11 @@ To train the model, use the command prompt, with the activated environment and t
 ```
 Explanation of command options:
 
---img: Image size for training (e.g., 640).
---batch: Batch size (e.g., 16). Go to 32 if your system can handle it. 
---epochs: Number of training epochs (e.g., 15). (Check the convergence of the system, if the test/train loss converges to a give value, you can stop the training early)
---data: Path to the .yaml file with dataset configuration.
---weights: Pretrained weights to use (choose from yolov5s.pt, yolov5m.pt, yolov5l.pt, yolov5x.pt).
+- img: Image size for training (e.g., 640).
+- batch: Batch size (e.g., 16). Go to 32 if your system can handle it. 
+- epochs: Number of training epochs (e.g., 15). (Check the convergence of the system, if the test/train loss converges to a give value, you can stop the training early)
+- data: Path to the .yaml file with dataset configuration.
+- weights: Pretrained weights to use (choose from yolov5s.pt, yolov5m.pt, yolov5l.pt, yolov5x.pt).
 
 YOLOv5 offers different pre-trained model types. Here’s a quick overview to help you select the best one:
 - **yolov5s.pt: Smallest, fastest model, best for lightweight tasks or devices with limited resources.**
